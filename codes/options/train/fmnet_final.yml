@@ -11,8 +11,8 @@ datasets:
   train:
     name: HDRTV1K
     mode: LQGT_base
-    dataroot_LQ: /home/ubuntu/Dataset/hdrtv1k/training_set/train_sdr_sub_c096_s240
-    dataroot_GT: /home/ubuntu/Dataset/hdrtv1k/training_set/train_hdr_sub_c096_s240
+    dataroot_LQ: ../data/hdrtv1k/training_set/train_sdr_sub_c096_s240
+    dataroot_GT: ../data/hdrtv1k/training_set/train_hdr_sub_c096_s240
     use_shuffle: true
     n_workers: 64
     batch_size: 64
@@ -22,8 +22,8 @@ datasets:
   val:
     name: HDRTV1K
     mode: LQGT_base
-    dataroot_LQ: /home/ubuntu/Dataset/hdrtv1k/test_set/test_sdr
-    dataroot_GT: /home/ubuntu/Dataset/hdrtv1k/test_set/test_hdr
+    dataroot_LQ: ../data/hdrtv1k/test_set/test_sdr
+    dataroot_GT: ../data/hdrtv1k/test_set/test_hdr
     save_img: false
 
 #### network structures
