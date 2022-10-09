@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./figures/acmmm.jpg" width="150">
+  <img src="./figures/acmmm.jpg" width="250">
 </p>
 
 This is the official PyTorch implementation of FMNet in the ACM MM 2022 paper "[FMNet: Frequency-Aware Modulation Network for SDR-to-HDR Translation](https://github.com/MCG-NKU/FMNet.git)".
