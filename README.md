@@ -2,7 +2,7 @@
   <img src="./figures/acmmm.jpg" width="200">
 </p>
 
-This is the official PyTorch implementation of FMNet in the ACM MM 2022 paper "[FMNet: Frequency-Aware Modulation Network for SDR-to-HDR Translation](https://github.com/MCG-NKU/FMNet.git)".
+This is the official PyTorch implementation of FMNet in the ACM MM 2022 paper "[FMNet: Frequency-Aware Modulation Network for SDR-to-HDR Translation](https://dl.acm.org/doi/10.1145/3503161.3548016)".
 
 # Updates
 - 2022.10.09 Init the repositories.
