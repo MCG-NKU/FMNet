@@ -78,8 +78,7 @@ python preprocessing.py --input_folder ../data/hdrtv1k/training_set/train_hdr --
 
 # Demo
 ### 1. Get pretrained model
-Our pretrained model ```fmnet_final.pth``` can be downloaded via [Google Drive](https://drive.google.com/file/d/1VJB8hrHim7BP0V3Q9lw2EjK7sVTEi__9/view?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1QhCtAbJoG2GwcZ9DiCbQJw) (access code: 5kgw). 
-Once you have downloaded the pretrained model, please put it into the ```$ROOT/checkpoints``` folder.
+Our pretrained model ```fmnet_final.pth``` has been placed into the ```$ROOT/checkpoints``` folder.
 
 ### 2. Inference
 You can generate the HDR results through:
