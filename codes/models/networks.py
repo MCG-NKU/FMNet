@@ -24,6 +24,7 @@ def define_G(opt):
     elif which_model == 'FMNet':
         import models.modules.FMNet as net
         netG = net.FMNet(in_nc=opt_net['in_nc'], out_nc=opt_net['out_nc'], nf=opt_net['nf'], nb=opt_net['nb'], act_type=opt_net['act_type'], opt=opt_net)
+    else:
         raise NotImplementedError('Generator model [{:s}] not recognized'.format(which_model))
     return netG
 
