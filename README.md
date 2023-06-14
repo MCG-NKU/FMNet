@@ -50,6 +50,7 @@ scipy==1.5.4
 matplotlib==3.3.3
 PyYAML==5.3.1
 tensorboardX==2.2
+colour-science==0.4.2
 ```
 
 # Dataset
